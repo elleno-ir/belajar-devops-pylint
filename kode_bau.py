@@ -1,3 +1,6 @@
+"""Modul sederhana untuk menghitung penjumlahan dua angka."""
+
+
 def hitung_penjumlahan(angka1, angka2):
     """Menghitung hasil penjumlahan dua angka.
 
