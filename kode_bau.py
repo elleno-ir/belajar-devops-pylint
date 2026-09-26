@@ -1,15 +1,21 @@
-import os, sys, math
+def hitung_penjumlahan(angka1, angka2):
+    """Menghitung hasil penjumlahan dua angka.
 
-x = 10
+    Args:
+        angka1 (int): Angka pertama.
+        angka2 (int): Angka kedua.
 
-def Bad_Function_Name( A, B, C, D, E, F ):
-    global x
-    l = 1; O = 0
-    if A == True:
-        if B == False:
-            if C == None:
-                try: print(eval("A + B")); res = E[0] + F + l + O
-                except: pass
-    else: return None
+    Returns:
+        int: Hasil penjumlahan angka1 dan angka2.
+    """
+    return angka1 + angka2
 
-Bad_Function_Name(True, False, None, 1, [2], 3)
+
+def main():
+    """Fungsi utama program."""
+    hasil = hitung_penjumlahan(10, 20)
+    print(f"Hasil penjumlahan: {hasil}")
+
+
+if __name__ == "__main__":
+    main()
